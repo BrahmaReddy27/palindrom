@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<script type="text/javascript">
+		var a,b,c;
+		a=prompt("Enter Name");
+		b="";
+		c=a.length;
+		document.write(a);
+		while(0<=c)
+		{
+			b=b+a.charAt(c);
+			c=c-1;
+		}
+		document.write("<br>"+b+"<br>");
+		if(a==b)	
+		{
+			document.write("it is palindrome");
+		}
+		else
+		{
+			document.wrete("it is not palindrome");
+		}
+	</script>
+</body>
+</html>
